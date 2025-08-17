@@ -78,91 +78,86 @@
 		"down": "button1_DOWN",
 		"over": "button1_OVER"
 	},
-	"ExitButton": {
+	"exit": {
 		"up": "ExitButton_UP",
 		"down": "ExitButton_DOWN"
 	},
-	"newButton": {
+	"new": {
 		"up": "newButton2_UP",
 		"down": "newButton2_UP",
 		"over": "newButton2_OVER",
 		"disabled": "newButton2_UP"
 	},
-	"loadButton": {
+	"load": {
 		"up": "loadButton2_UP",
 		"down": "loadButton2_UP",
 		"over": "loadButton2_DOWN",
 		"disabled": "loadButton2_UP"
 	},
-	"co-opButton": {
+	"co-op": {
 		"up": "co-opButton_UP",
 		"down": "co-opButton_UP",
 		"over": "co-opButton_DOWN",
 		"disabled": "co-opButton_UP"
 	},
-	"aboutButton": {
+	"about": {
 		"up": "questionButton_UP",
 		"down": "questionButton_UP",
 		"over": "questionButton_DOWN"
 	},
-	"exitButton": {
+	"exit1": {
 		"up": "exitButton2_UP",
 		"down": "exitButton2_UP",
 		"over": "exitButton2_DOWN",
 		"disabled": "exitButton2_UP"
 	},
-	"backButton": {
+	"back": {
 		"up": "backButton_UP",
 		"down": "backButton_UP",
 		"over": "backButton_DOWN"
 	},
-	"rightButton": {
+	"right": {
 		"up": "rightButton_UP",
 		"down": "rightButton_UP",
 		"over": "rightButton_OVER"
 	},
-	"leftButton": {
+	"left": {
 		"up": "leftButton_UP",
 		"down": "leftButton_UP",
 		"over": "leftButton_OVER"
 	},
-	"okButton": {
+	"ok": {
 		"up": "okButton_UP",
 		"down": "okButton_UP",
 		"over": "okButton_OVER",
 		"disabled": "okButton_DISABLE"
 	},
-	"closeButton": {
+	"close": {
 		"up": "closeButton_UP",
 		"down": "closeButton_UP",
 		"over": "closeButton"
 	},
-	"closeButton": {
-		"up": "closeButton_UP",
-		"down": "closeButton_UP",
-		"over": "closeButton"
-	},
-	"profileButton": {
+	"profile": {
 		"up": "ProfileButton",
 		"down": "ProfileButton",
 		"over": "ProfileButton_OVER"
 	},
-	"settingButton": {
+	"setting": {
 		"up": "setting_UP",
 		"down": "setting_DOWN",
 		"over": "setting_OVER"
 	},
-	"randomButton": {
+	"random": {
 		"up": "randomButton_UP",
 		"down": "randomButton_UP",
 		"over": "randomButton_OVER"
 	},
-	"changeStyleButton": {
+	"character": {
 		"up": "styleButton_UP",
 		"down": "styleButton_UP",
 		"over": "styleButton_OVER"
 	},
-	"editingButton": {
+	"edit": {
 		"up": "editingButton_UP",
 		"down": "editingButton_UP",
 		"over": "editingButton_OVER",
@@ -176,14 +171,14 @@
 		"up": "Starfruit_OnCheckedpng",
 		"checked": "Starfruit_Checked"
 	},
-	"upButton": {
+	"up": {
 		"up": "upButton_UP",
 		"down": "upButton_CHECKED",
 		"over": "upButton_OVER",
 		"checked": "upButton_CHECKED",
 		"checkedOver": "upButton_CHECKED"
 	},
-	"downButton": {
+	"down": {
 		"up": "downButton_UP",
 		"down": "downButton_CHECKED",
 		"over": "downButton_OVER",
@@ -202,7 +197,7 @@
 		"focusedFontColor": "PINK",
 		"checkedFontColor": "GREEN"
 	},
-	"default2": {
+	"circle": {
 		"checkboxOn": "checkedbx2_ON",
 		"checkboxOff": "checkedbx2_OFF",
 		"font": "baseFont2-24",
@@ -227,119 +222,115 @@
 		"font": "baseFont2-24",
 		"fontColor": "BLACK"
 	},
-	"default-PINK": {
+	"font2-24-PINK": {
 		"font": "baseFont2-24",
 		"fontColor": "PINK"
 	},
-	"default-GREEN": {
+	"font2-24-GREEN": {
 		"font": "baseFont2-24",
 		"fontColor": "GREEN"
 	},
-	"default-WHITE": {
+	"font2-24-WHITE": {
 		"font": "baseFont2-24",
 		"fontColor": "WHITE"
-	},
-	"font-BLACK": {
-		"font": "baseFont-24",
-		"fontColor": "BLACK"
-	},
-	"font-WHITE": {
-		"font": "baseFont-24",
-		"fontColor": "WHITE"
-	},
-	"font-GREEN": {
-		"font": "baseFont-24",
-		"fontColor": "GREEN"
-	},
-	"font-PINK": {
-		"font": "baseFont-24",
-		"fontColor": "PINK"
-	},
-	"font-45_PINK": {
-		"font": "baseFont-45",
-		"fontColor": "PINK"
-	},
-	"font2-45_PINK": {
-		"font": "basefont2-45",
-		"fontColor": "PINK"
 	},
 	"font2-45_BLACK": {
 		"font": "basefont2-45",
 		"fontColor": "BLACK"
 	},
-	"font-45_BLACK": {
+	"font2-30-BLACK": {
+		"font": "font2-30",
+		"fontColor": "BLACK"
+	},
+	"font2-45-PINK": {
+		"font": "basefont2-45",
+		"fontColor": "PINK"
+	},
+	"font2-24-PURPLE": {
+		"font": "baseFont2-24",
+		"fontColor": "PURPLE"
+	},
+	"font2-24-RED": {
+		"font": "baseFont2-24",
+		"fontColor": "RED"
+	},
+	"font2-45-WHITE": {
+		"font": "basefont2-45",
+		"fontColor": "WHITE"
+	},
+	"font2-24-GRAY": {
+		"font": "baseFont2-24",
+		"fontColor": "GRAY"
+	},
+	"font2-30-PINK": {
+		"font": "font2-30",
+		"fontColor": "PINK"
+	},
+	"font1-90-GREEN": {
+		"font": "baseFont-90",
+		"fontColor": "GREEN"
+	},
+	"font1-24-BLACK": {
+		"font": "baseFont-24",
+		"fontColor": "BLACK"
+	},
+	"font1-24-WHITE": {
+		"font": "baseFont-24",
+		"fontColor": "WHITE"
+	},
+	"font1-24-GREEN": {
+		"font": "baseFont-24",
+		"fontColor": "GREEN"
+	},
+	"font1-24-PINK": {
+		"font": "baseFont-24",
+		"fontColor": "PINK"
+	},
+	"font1-45-PINK": {
+		"font": "baseFont-45",
+		"fontColor": "PINK"
+	},
+	"font1-45-BLACK": {
 		"font": "baseFont-45",
 		"fontColor": "BLACK"
 	},
-	"font-90_PINK": {
+	"font1-45-GREEN": {
+		"font": "baseFont-45",
+		"fontColor": "GREEN"
+	},
+	"font1-90-PINK": {
 		"font": "baseFont-90",
 		"fontColor": "PINK"
 	},
-	"default-PINK_warning": {
+	"warning_font2-24-PINK": {
 		"font": "baseFont2-24",
 		"fontColor": "PINK",
 		"background": "warning_label"
 	},
-	"default-BLACK_warning": {
+	"warning_font2-24-BLACK": {
 		"font": "baseFont2-24",
 		"fontColor": "BLACK",
 		"background": "warning_label"
 	},
-	"default-GREEN_warning": {
+	"warning_font2-24-GREEN": {
 		"font": "baseFont2-24",
 		"fontColor": "GREEN",
 		"background": "warning_label"
 	},
-	"default-RED_warning": {
+	"warning_font2-24-RED": {
 		"font": "baseFont2-24",
 		"fontColor": "RED",
 		"background": "warning_label"
 	},
-	"default-PURPLE": {
-		"font": "baseFont2-24",
-		"fontColor": "PURPLE"
-	},
-	"font2-45_WHITE": {
-		"font": "basefont2-45",
-		"fontColor": "WHITE"
-	},
-	"labelBack-24_ZERESHK": {
+	"name_font2-24-ZERESHK": {
 		"font": "baseFont2-24",
 		"fontColor": "ZERESHK",
 		"background": "labelBackGround"
 	},
-	"default-RED": {
-		"font": "baseFont2-24",
-		"fontColor": "RED"
-	},
-	"default-RED": {
-		"font": "baseFont2-24",
-		"fontColor": "RED"
-	},
-	"default30": {
-		"font": "font2-30",
-		"fontColor": "BLACK"
-	},
-	"gray24": {
-		"font": "baseFont2-24",
-		"fontColor": "GRAY"
-	},
-	"back45": {
+	"name_font1-45-ZERESHK": {
 		"font": "baseFont-45",
 		"fontColor": "ZERESHK",
 		"background": "labelBackGround"
-	},
-	"font-45_GREEN": {
-		"font": "baseFont-45",
-		"fontColor": "GREEN"
-	},
-	"PINK-30": {
-		"font": "font2-30",
-		"fontColor": "PINK"
-	},
-	"font-90_GREEN": {
-		"font": "baseFont-90",
-		"fontColor": "GREEN"
 	}
 },
 "ListStyle": {
@@ -358,14 +349,24 @@
 		"background": "listSelecetBox"
 	}
 },
+"ProgressBarStyle": {
+	"default-horizontal": {
+		"background": "hScrollBackGround",
+		"knobBefore": "knobBefore"
+	},
+	"default-vertical": {
+		"background": "VScroll1_BackGround",
+		"knobBefore": "knobBefore"
+	}
+},
 "ScrollPaneStyle": {
 	"default": {
 		"background": "windowsBackground"
 	},
-	"default2": {
+	"noBackground": {
 		"background": "stageBackGround_empty"
 	},
-	"default3": {
+	"outScroll": {
 		"background": "shopWindowBackGround1",
 		"corner": "windowsBackground",
 		"vScroll": "VScroll1_BackGround",
@@ -377,7 +378,7 @@
 		"font": "baseFont2-24",
 		"fontColor": "BLACK",
 		"background": "selectBoxBackGround",
-		"scrollStyle": "default2",
+		"scrollStyle": "noBackground",
 		"listStyle": "selectBoxList",
 		"backgroundOpen": "selectBoxBackGround_OVER"
 	}
@@ -392,6 +393,14 @@
 		"knob": "VScroll1_Knob"
 	}
 },
+"SplitPaneStyle": {
+	"default-horizontal": {
+		"handle": "hScrollBackGround"
+	},
+	"default-vertical": {
+		"handle": "VScroll1_BackGround"
+	}
+},
 "TextButtonStyle": {
 	"default": {
 		"font": "baseFont2-24",
@@ -401,113 +410,7 @@
 		"pressedOffsetX": -2,
 		"pressedOffsetY": -2
 	},
-	"button1": {
-		"font": "baseFont2-24",
-		"fontColor": "PINK",
-		"downFontColor": "GREEN",
-		"up": "button1_UP",
-		"down": "button1_DOWN",
-		"over": "button1_OVER"
-	},
-	"button1-2": {
-		"font": "baseFont2-24",
-		"fontColor": "PINK",
-		"downFontColor": "GREEN",
-		"up": "button1_UP",
-		"down": "button1_DOWN",
-		"over": "button1_OVER"
-	},
-	"button1-2_BLACK": {
-		"font": "baseFont2-24",
-		"fontColor": "BLACK",
-		"downFontColor": "GREEN",
-		"up": "button1_UP",
-		"down": "button1_DOWN",
-		"over": "button1_OVER"
-	},
-	"button1-2_font30": {
-		"font": "baseFont2-24",
-		"fontColor": "PINK",
-		"downFontColor": "GREEN",
-		"up": "button1_UP",
-		"down": "button1_DOWN",
-		"over": "button1_OVER"
-	},
-	"button1-2_font30_BLACK": {
-		"font": "font2-30",
-		"fontColor": "BLACK",
-		"downFontColor": "GREEN",
-		"up": "button1_UP",
-		"down": "button1_DOWN",
-		"over": "button1_OVER"
-	},
-	"default2_PINK": {
-		"font": "baseFont2-24",
-		"fontColor": "PINK",
-		"downFontColor": "GREEN",
-		"overFontColor": "GREEN",
-		"pressedOffsetX": -2,
-		"pressedOffsetY": -2
-	},
-	"default_PINK_font30": {
-		"font": "font2-30",
-		"fontColor": "PINK",
-		"downFontColor": "GREEN",
-		"overFontColor": "GREEN",
-		"pressedOffsetX": -2,
-		"pressedOffsetY": -2
-	},
-	"default_BLACK_font30": {
-		"font": "font2-30",
-		"fontColor": "BLACK",
-		"downFontColor": "GREEN",
-		"overFontColor": "PINK",
-		"pressedOffsetX": -2,
-		"pressedOffsetY": -2
-	},
-	"inventoryButtonTop-BLACK24": {
-		"font": "baseFont2-24",
-		"fontColor": "BLACK",
-		"up": "enventoryButtonTop_UP",
-		"down": "enventoryButtonTop_DOWN"
-	},
-	"inventoryButtonTop-PINK24": {
-		"font": "baseFont2-24",
-		"fontColor": "PINK",
-		"up": "enventoryButtonTop_UP",
-		"down": "enventoryButtonTop_DOWN"
-	},
-	"inventoryButtonRight-BLACK24": {
-		"font": "baseFont2-24",
-		"fontColor": "BLACK",
-		"up": "inventoryButtonRight_UP",
-		"down": "inventoryButtonTop_DOWN"
-	},
-	"inventoryButtonRight-PINK24": {
-		"font": "baseFont2-24",
-		"fontColor": "PINK",
-		"up": "inventoryButtonRight_UP",
-		"down": "inventoryButtonTop_DOWN"
-	},
-	"inventoryButtonRight-GREEN24": {
-		"font": "baseFont2-24",
-		"fontColor": "GREEN",
-		"up": "inventoryButtonRight_UP",
-		"down": "inventoryButtonTop_DOWN"
-	},
-	"inventoryButtonTop-GREEN24": {
-		"font": "baseFont2-24",
-		"fontColor": "GREEN",
-		"up": "enventoryButtonTop_UP",
-		"down": "enventoryButtonTop_DOWN"
-	},
-	"inventoryButtonTop-RED24": {
-		"font": "baseFont2-24",
-		"fontColor": "RED",
-		"up": "enventoryButtonTop_UP",
-		"down": "enventoryButtonTop_DOWN"
-	},
-	"newButton": {
+	"new": {
 		"font": "font2-30",
 		"fontColor": "PINK",
 		"downFontColor": "PINK",
@@ -516,19 +419,126 @@
 		"down": "newButton_DOWN",
 		"over": "newButton_OVER"
 	},
-	"bottomButton-RED24": {
+	"button1_font2-24-PINK": {
+		"font": "baseFont2-24",
+		"fontColor": "PINK",
+		"downFontColor": "GREEN",
+		"up": "button1_UP",
+		"down": "button1_DOWN",
+		"over": "button1_OVER"
+	},
+	"button1_font2-24-BLACK": {
+		"font": "baseFont2-24",
+		"fontColor": "BLACK",
+		"downFontColor": "GREEN",
+		"up": "button1_UP",
+		"down": "button1_DOWN",
+		"over": "button1_OVER"
+	},
+	"button1_font2-30-PINK": {
+		"font": "font2-30",
+		"fontColor": "PINK",
+		"downFontColor": "GREEN",
+		"up": "button1_UP",
+		"down": "button1_DOWN",
+		"over": "button1_OVER"
+	},
+	"button1_font2-30-BLACK": {
+		"font": "font2-30",
+		"fontColor": "BLACK",
+		"downFontColor": "GREEN",
+		"up": "button1_UP",
+		"down": "button1_DOWN",
+		"over": "button1_OVER"
+	},
+	"button1_font2-30-GREEN": {
+		"font": "baseFont2-24",
+		"fontColor": "GREEN",
+		"downFontColor": "GREEN",
+		"overFontColor": "PINK",
+		"up": "button1_UP",
+		"down": "button1_DOWN",
+		"over": "button1_OVER"
+	},
+	"default_font2-24-PINK": {
+		"font": "baseFont2-24",
+		"fontColor": "PINK",
+		"downFontColor": "GREEN",
+		"overFontColor": "GREEN",
+		"pressedOffsetX": -2,
+		"pressedOffsetY": -2
+	},
+	"default_font2-30-PINK": {
+		"font": "font2-30",
+		"fontColor": "PINK",
+		"downFontColor": "GREEN",
+		"overFontColor": "GREEN",
+		"pressedOffsetX": -2,
+		"pressedOffsetY": -2
+	},
+	"default_font2-30-BLACK": {
+		"font": "font2-30",
+		"fontColor": "BLACK",
+		"downFontColor": "GREEN",
+		"overFontColor": "PINK",
+		"pressedOffsetX": -2,
+		"pressedOffsetY": -2
+	},
+	"top_font2-24-BLACK": {
+		"font": "baseFont2-24",
+		"fontColor": "BLACK",
+		"up": "enventoryButtonTop_UP",
+		"down": "enventoryButtonTop_DOWN"
+	},
+	"top_font2-24-PINK": {
+		"font": "baseFont2-24",
+		"fontColor": "PINK",
+		"up": "enventoryButtonTop_UP",
+		"down": "enventoryButtonTop_DOWN"
+	},
+	"right_font2-24-BLACK": {
+		"font": "baseFont2-24",
+		"fontColor": "BLACK",
+		"up": "inventoryButtonRight_UP",
+		"down": "inventoryButtonTop_DOWN"
+	},
+	"right_font2-24-PINK": {
+		"font": "baseFont2-24",
+		"fontColor": "PINK",
+		"up": "inventoryButtonRight_UP",
+		"down": "inventoryButtonTop_DOWN"
+	},
+	"right_font2-24-GREEN": {
+		"font": "baseFont2-24",
+		"fontColor": "GREEN",
+		"up": "inventoryButtonRight_UP",
+		"down": "inventoryButtonTop_DOWN"
+	},
+	"top_font2-24-GREEN": {
+		"font": "baseFont2-24",
+		"fontColor": "GREEN",
+		"up": "enventoryButtonTop_UP",
+		"down": "enventoryButtonTop_DOWN"
+	},
+	"top_font2-24-RED": {
+		"font": "baseFont2-24",
+		"fontColor": "RED",
+		"up": "enventoryButtonTop_UP",
+		"down": "enventoryButtonTop_DOWN"
+	},
+	"bottom_fontt2-24-RED": {
 		"font": "baseFont2-24",
 		"fontColor": "RED",
 		"up": "inventoryButtonBottom_UP",
 		"down": "inventoryButtonBottom_DOWN"
 	},
-	"bottomButton-GREEN24": {
+	"bottom_font2-24-GREEN": {
 		"font": "baseFont2-24",
 		"fontColor": "GREEN",
 		"up": "inventoryButtonBottom_UP",
 		"down": "inventoryButtonBottom_DOWN"
 	},
-	"npc-45": {
+	"npc_font2-45-GREEN": {
 		"font": "basefont2-45",
 		"fontColor": "GREEN",
 		"overFontColor": "PINK",
@@ -538,7 +548,7 @@
 		"focused": "npcWinButton_OVER",
 		"disabled": "npcWinButton_DISABLE"
 	},
-	"npc-90": {
+	"npc_font1-90-GREEN": {
 		"font": "baseFont-90",
 		"fontColor": "GREEN",
 		"overFontColor": "PINK",
@@ -547,15 +557,6 @@
 		"over": "npcWinButton_OVER",
 		"focused": "npcWinButton_OVER",
 		"disabled": "npcWinButton_DISABLE"
-	},
-	"button1-2_font30GREEN": {
-		"font": "baseFont2-24",
-		"fontColor": "GREEN",
-		"downFontColor": "GREEN",
-		"overFontColor": "PINK",
-		"up": "button1_UP",
-		"down": "button1_DOWN",
-		"over": "button1_OVER"
 	}
 },
 "TextFieldStyle": {
@@ -570,7 +571,7 @@
 		"messageFont": "baseFont-24",
 		"messageFontColor": "PINK"
 	},
-	"font2": {
+	"font1-24-PINK": {
 		"font": "baseFont-24",
 		"fontColor": "PINK",
 		"focusedFontColor": "BLACK",
@@ -581,7 +582,7 @@
 		"messageFont": "baseFont-24",
 		"messageFontColor": "PINK"
 	},
-	"default_font30": {
+	"font1-30-PINK": {
 		"font": "font2-30",
 		"fontColor": "PINK",
 		"focusedFontColor": "BLACK",
@@ -592,7 +593,7 @@
 		"messageFont": "baseFont-24",
 		"messageFontColor": "PINK"
 	},
-	"tf": {
+	"noBackground_font2-24-PINK": {
 		"font": "baseFont2-24",
 		"fontColor": "PINK",
 		"focusedFontColor": "BLACK",
@@ -630,28 +631,28 @@
 		"titleFontColor": "WHITE",
 		"stageBackground": "stageBackGround"
 	},
-	"ProductWindow": {
-		"background": "ProductWindow",
-		"titleFont": "baseFont-90",
-		"titleFontColor": "WHITE"
-	},
-	"noWindow": {
-		"titleFont": "baseFont-90",
-		"titleFontColor": "WHITE"
-	},
-	"askWindow": {
+	"default5": {
 		"background": "shopWindowBackGround",
 		"titleFont": "baseFont-90",
 		"titleFontColor": "BLACK",
 		"stageBackground": "stageBackGround"
 	},
-	"npcStateWin": {
+	"default6": {
 		"background": "npcStateMenuWindowBackground",
 		"titleFont": "baseFont-24"
 	},
-	"social": {
+	"social-row": {
 		"background": "SocialWinBackGround",
 		"titleFont": "baseFont-24"
+	},
+	"noBackground": {
+		"titleFont": "baseFont-90",
+		"titleFontColor": "WHITE"
+	},
+	"product-row": {
+		"background": "ProductWindow",
+		"titleFont": "baseFont-90",
+		"titleFontColor": "WHITE"
 	}
 }
 }
